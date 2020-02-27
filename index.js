@@ -101,10 +101,11 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Implicit binding: Usually is a keyword that it is used to replace the name of the function when the functioon is invoked.
+If you understand the context of the execution of the function, you gonna indentify where that function is beind called by the keyword "THIS".
+  2. Window binding: When you call "This" out of the function scope, will replace everything that its part of the global scope. So will return undefined. 
+  3. Explicit : Allows you to use the call and apply function to interact with a function in a global scope and call that function inside the context of another function. 
+  4. New keyword : Returns a object from the constructive function
 */
 
 ///////// END OF CHALLENGE /////////
